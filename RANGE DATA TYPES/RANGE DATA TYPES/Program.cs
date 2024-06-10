@@ -51,6 +51,12 @@ namespace RANGE_DATA_TYPES
             Console.WriteLine(float.MaxValue);
 
             Console.WriteLine("==============");
+            Console.WriteLine("double");
+            Console.WriteLine(double.MinValue);
+            Console.WriteLine(double.MaxValue);
+
+
+            Console.WriteLine("==============");
             Console.WriteLine("decimal");
             Console.WriteLine(decimal.MinValue);
             Console.WriteLine(decimal.MaxValue);
