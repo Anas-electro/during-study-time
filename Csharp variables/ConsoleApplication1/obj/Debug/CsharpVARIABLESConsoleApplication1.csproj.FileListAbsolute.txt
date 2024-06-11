@@ -1,6 +1,0 @@
-D:\Project\during-study-time\Csharp variables\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
-D:\Project\during-study-time\Csharp variables\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
-D:\Project\during-study-time\Csharp variables\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
-D:\Project\during-study-time\Csharp variables\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
-D:\Project\during-study-time\Csharp variables\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
-D:\Project\during-study-time\Csharp variables\ConsoleApplication1\obj\Debug\CsharpVARIABLESConsoleApplication1.csprojResolveAssemblyReference.cache
