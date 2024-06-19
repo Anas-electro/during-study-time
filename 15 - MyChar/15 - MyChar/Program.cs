@@ -21,9 +21,12 @@ namespace _15___MyChar
 
             //Console.WriteLine(x);
 
-            Console.WriteLine((char)77);
-            Console.WriteLine((int)'M');
-         
+            //Console.WriteLine((char)77);
+            //Console.WriteLine((int)'M');
+
+            char c;
+            c = '=';
+            Console.WriteLine((int)c);
         }
     }
 }
