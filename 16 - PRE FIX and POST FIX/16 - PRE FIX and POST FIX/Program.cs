@@ -26,8 +26,10 @@ namespace _16___PRE_FIX_and_POST_FIX
 
             ////// Postfix + جاي بعد المتغير
             ////x++;
+            ///x--;
             //// Prefix قبل المتغير
             //++x;
+            //--x;
 
             int x = 5;
             // int y = x++;
