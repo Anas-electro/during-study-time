@@ -71,13 +71,37 @@ namespace _21___IfExamples
             //}
 
 
-            int x = 5;
-            int y = 10;
+            //int x = 5;
+            //int y = 10;
 
-            //if (x > y)
-            //    Console.WriteLine("X > Y");
-            //Console.WriteLine("X > Y");
-            if (x > y) Console.WriteLine("X > Y");
+            ////if (x > y)
+            ////    Console.WriteLine("X > Y");
+            ////Console.WriteLine("X > Y");
+            //if (x > y) Console.WriteLine("X > Y");
+
+
+            //Console.Write("Enter Number1: ");
+            //int nbr1 = int.Parse(Console.ReadLine());
+            //Console.Write("Enter Number2: ");
+            //int nbr2 = int.Parse(Console.ReadLine());
+
+            //if (nbr1 > nbr2)
+            //{
+            //    Console.WriteLine("Number1 > Number2");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Number2 > Number1 Or Equal");
+            //}
+
+            Console.WriteLine("Enter Grade: ");
+            int gr = int.Parse(Console.ReadLine());
+            //int gr = Convert.ToInt32(Console.ReadLine());
+            if (gr >= 50)
+                Console.WriteLine("Pass");
+            else
+                Console.WriteLine("Fail");
+
 
         }
 
