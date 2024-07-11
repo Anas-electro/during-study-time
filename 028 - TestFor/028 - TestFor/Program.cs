@@ -35,8 +35,16 @@ namespace _028___TestFor
             //for (int x = 1, y = 10, z = 100; x <= 10; x++, y += 10, z+=100)
             //    Console.WriteLine(x + ":" + y + ":" + z);
 
-            for (int x = 1, y = 10, z = 100; x <= 10 && y <= 30; x++, y += 10, z += 100)
-                Console.WriteLine(x + ":" + y + ":" + z);
+            //for (int x = 1, y = 10, z = 100; x <= 10 && y <= 30; x++, y += 10, z += 100)
+            //    Console.WriteLine(x + ":" + y + ":" + z);
+
+            for (int x = 1,y = 10; x < y;x++,y--)
+            {
+                Console.WriteLine(x + " : " + y);
+            }
+
+
+
         }
     }
 }
