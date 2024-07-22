@@ -45,7 +45,24 @@ namespace _034__TestDateAndTime
             //strDT = DateTime.Now.ToString("dd/MM/yyyy - hh:mm:ss tt");
             // Console.WriteLine(strDT)  ;
 
-            Console.WriteLine(DateTime.Now.AddYears(5).AddMonths(1).AddDays(3).AddHours(1).AddMinutes(10).ToString("dd-MM-yyyy  - hh:mm:ss tt"));
+            //  Console.WriteLine(DateTime.Now.AddYears(5).AddMonths(1).AddDays(3).AddHours(1).AddMinutes(10).ToString("dd-MM-yyyy  - hh:mm:ss tt"));
+
+
+            //DateTime dt = Convert.ToDateTime("01/01/2000");
+            //for (int x = 1; x<=12; x++)
+            //{
+            //    //Console.WriteLine(dt.ToString("MMMM"));
+            //    Console.WriteLine(dt.ToString("MMM"));
+            //    dt = dt.AddMonths(1);
+            //}
+
+            DateTime dt = Convert.ToDateTime("01/01/2000");
+            for (int x = 1; x<= 7; x++)
+            {
+                //   Console.WriteLine(dt.ToString("dddd"));
+                Console.WriteLine(dt.ToString("ddd"));
+                dt = dt.AddDays(1);
+            }
 
         }
     }
