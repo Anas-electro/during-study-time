@@ -41,12 +41,31 @@ namespace _036___DoWhileLoop
             //}
 
 
-            int x = 1;
+            //int x = 1;
+            //do
+            //{
+            //    Console.WriteLine(x);
+            //    x++;
+            //} while (false);
+
+            string strYN;
             do
             {
-                Console.WriteLine(x);
-                x++;
-            } while (false);
+                int nbr1;
+                int nbr2;
+                int res;
+
+                Console.Write("Enter Number1: ");
+                nbr1 = int.Parse(Console.ReadLine());
+                Console.Write("Enter Number2 : ");
+                nbr2 = int.Parse(Console.ReadLine());
+                res = nbr1 + nbr2;
+                Console.WriteLine("==========");
+                Console.WriteLine(res);
+                Console.WriteLine("=========");
+                Console.Write("Do You want try again ? (y/n) : ");
+                 strYN = Console.ReadLine();
+            } while (strYN == "y" || strYN == "Y");
 
         }
     }
